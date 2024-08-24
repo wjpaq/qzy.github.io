@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- 编码格式 -->
+    <meta charset="UTF-8">
+
+    <!-- name="viewport"：
+    这指定了 <meta> 标签的类型，这里是设置视口属性。
+    content="width=device-width, initial-scale=1.0"：
+    这是指定视口的实际设置。具体来说：
+
+    width=device-width：
+    设置视口的宽度与设备的屏幕宽度一致。这意味着网页会适应设备的实际宽度，而不会出现横向滚动条。
+    initial-scale=1.0：
+    设置页面初始缩放比例为 1.0，即不进行缩放。用户在加载页面时会看到页面的实际大小，而不会放大或缩小。 
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- url标题 -->
+    <title>调查问卷</title>
+
+    <style>
+        /* 格式居中 */
+        h1 {
+            text-align: center;
+        }
+        h2 {
+            text-align: center;
+        }
+        .video-container {
+            text-align: center;
+        }
+        video {
+            max-width: 100%;
+            height: auto;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        a {
+            text-align: center;
+        }
+
+
+
+    <body>
+    {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .centered-link {
+        text-align: center;
+    }
+
+    .centered-link a {
+        text-decoration: none;
+        color: #4CAF50;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .centered-link a:hover {
+        color: #45a049;
+    }
+  
+
+    body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin: 10px 0 5px;
+        }
+        input, select, textarea {
+            margin-bottom: 15px;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+
+    </style>
+
+
+
+
+</head>
+<body>
+    <!-- 第一行标题 -->
+    <h1>Welcome to My Page</h1>
+    
+    <!-- 第二行标题 -->
+    <h2>Embedded Video</h2>
+
+    <div class="video-container">
+        <video width="600" controls>
+            <source src="/static/example.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+        
+</body>
+    <div class="centered-link">
+         <a href="https://www.example.com" target="_blank">问卷星链接</a>
+         <br>
+         <p><a href="/wenjuan">视频总结习题</a></p>
+    </div>
+    
+
+
+</body>
+
+
+
+
+
+</html>
